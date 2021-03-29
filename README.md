@@ -78,7 +78,7 @@ To run Prettier on save file in VSC you need to save the project as workspace an
 
 I'm using Husky to prevent commit code that doesn't pass required tests or doesn't apply eslint conventions
 
-#### Tyescript
+#### Typescript
 
 I'm using typescript to type check my code. Additionaly, I liked to use absolute paths. So I use tsconfig to keep the Go to Definition capability. For VSC it works well, but it might require some additional configuration in other IDEs
 
