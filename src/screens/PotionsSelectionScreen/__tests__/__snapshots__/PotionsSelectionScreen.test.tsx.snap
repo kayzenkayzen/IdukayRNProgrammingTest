@@ -715,7 +715,7 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
             }
             testID="potion-option-item-label"
           >
-            Poción Amarilladsfasdfasdfasdfsdfs
+            Poción Amarilla
           </Text>
         </View>
         <View
