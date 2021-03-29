@@ -1,6 +1,6 @@
 import React from 'react';
 import { OptimalDamageScreen } from '@src/screens';
-import { IOptimalDamageScreenProps } from './types';
+import { IOptimalDamageScreenProps } from './OptimalDamageScreen.d';
 
 const OptimalDamageScreenContainer: React.FC<IOptimalDamageScreenProps> = React.memo(
   (props: IOptimalDamageScreenProps) => {

@@ -6,52 +6,12 @@ import {
   View,
   Text,
   TouchableOpacity,
-  Image,
-  StyleSheet,
 } from 'react-native';
 import { theme } from '@src/theme';
 import { constants } from '@src/constants';
-import { CounterInput } from '@src/components';
-import { images } from '@src/assets';
-import { IPotionsSelectionScreenProps } from './types';
-
-const styles = StyleSheet.create({
-  titleContainer: {
-    paddingHorizontal: 10,
-    paddingVertical: 20,
-    backgroundColor: '#fff',
-  },
-  titleText: {
-    fontFamily: theme.fonts.primary.regular,
-    fontSize: 16,
-    lineHeight: 21,
-    color: theme.colors.primary.medium,
-  },
-  optionOuterContainer: {
-    paddingVertical: 10,
-    paddingHorizontal: 10,
-    borderBottomWidth: 1,
-    borderBottomColor: '#dddddd',
-    flexDirection: 'row',
-    backgroundColor: '#fff',
-    marginVertical: 2,
-  },
-  optionInnerContainer: {
-    flex: 1,
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  potionImage: {
-    width: 20,
-    height: 20,
-    marginRight: 10,
-  },
-  counterContainer: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    flexDirection: 'row',
-  },
-});
+import { PotionOptionItem } from './components';
+import { IPotionsSelectionScreenProps } from './PotionsSelectionScreen.d';
+import { styles } from './PotionsSelectionScreen.style';
 
 const PotionsSelectionScreen: React.FC<IPotionsSelectionScreenProps> = React.memo(
   ({
@@ -75,7 +35,7 @@ const PotionsSelectionScreen: React.FC<IPotionsSelectionScreenProps> = React.mem
       [removePotion],
     );
 
-    const handleOnPressPlus = useCallback(
+    const handleAddPotion = useCallback(
       potionId => {
         addPotion(potionId);
       },
@@ -109,45 +69,16 @@ const PotionsSelectionScreen: React.FC<IPotionsSelectionScreenProps> = React.mem
           </View>
 
           {constants.POTIONS.map((potion, index) => (
-            <View
+            <PotionOptionItem
               key={potion.id}
-              style={[
-                styles.optionOuterContainer,
-                {
-                  borderTopWidth: index === 0 ? 1 / 1 : undefined,
-                  borderTopColor: index === 0 ? theme.colors.gray : undefined,
-                },
-              ]}
-            >
-              <View style={styles.optionInnerContainer}>
-                <Image
-                  style={[styles.potionImage, { tintColor: potion.rgb }]}
-                  source={images.potion}
-                />
-
-                <Text
-                  style={{
-                    fontFamily: theme.fonts.primary.semibold,
-                    color: potion.rgb,
-                  }}
-                >
-                  {potion.label}
-                </Text>
-              </View>
-
-              <View style={styles.counterContainer}>
-                <CounterInput
-                  id={potion.id}
-                  buttonBorderColor={theme.colors.primary.light}
-                  buttonBackgroundColor={'transparent'}
-                  buttonLabelColor={theme.colors.primary.medium}
-                  value={potions[potion.id]}
-                  min={0}
-                  onPressMinus={handleRemovePotion}
-                  onPressMore={handleOnPressPlus}
-                />
-              </View>
-            </View>
+              index={index}
+              id={potion.id}
+              rgb={potion.rgb}
+              label={potion.label}
+              value={potions[potion.id]}
+              onPressRemovePotion={handleRemovePotion}
+              onPressAddPotion={handleAddPotion}
+            />
           ))}
 
           {!!constants.POTIONS.reduce(

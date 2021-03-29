@@ -3,7 +3,7 @@ import { connect } from 'react-redux';
 import { OptimalDamageCalculatorActions } from '@src/redux/actions';
 import { IRootState } from '@src/redux/reducers/index.d';
 import { PotionsSelectionScreen } from '@src/screens';
-import { IPotionsSelectionScreenProps } from './types';
+import { IPotionsSelectionScreenProps } from './PotionsSelectionScreen.d';
 import { Dispatch } from 'redux';
 
 const StoreScreenContainer: React.FC<IPotionsSelectionScreenProps> = React.memo(

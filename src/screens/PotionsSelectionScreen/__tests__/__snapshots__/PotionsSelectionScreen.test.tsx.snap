@@ -88,6 +88,7 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
                 "fontFamily": "SourceSansPro-SemiBold",
               }
             }
+            testID="potion-option-item-label"
           >
             Poción Roja
           </Text>
@@ -285,6 +286,7 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
                 "fontFamily": "SourceSansPro-SemiBold",
               }
             }
+            testID="potion-option-item-label"
           >
             Poción Azul
           </Text>
@@ -482,6 +484,7 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
                 "fontFamily": "SourceSansPro-SemiBold",
               }
             }
+            testID="potion-option-item-label"
           >
             Poción Verde
           </Text>
@@ -679,6 +682,7 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
                 "fontFamily": "SourceSansPro-SemiBold",
               }
             }
+            testID="potion-option-item-label"
           >
             Poción Amarilla
           </Text>
@@ -876,6 +880,7 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
                 "fontFamily": "SourceSansPro-SemiBold",
               }
             }
+            testID="potion-option-item-label"
           >
             Poción Gris
           </Text>
