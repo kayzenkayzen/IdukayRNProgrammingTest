@@ -1,1 +1,1 @@
-export { default as CounterInput } from '@src/components/CounterInput';
+export { default as CounterInput } from '@src/components/CounterInput/CounterInput';

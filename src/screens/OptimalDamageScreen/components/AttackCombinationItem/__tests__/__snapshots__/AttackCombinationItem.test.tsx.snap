@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test AttackCombinationItem Component renders correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "borderBottomColor": "#ddd",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+        "paddingHorizontal": 10,
+        "paddingVertical": 15,
+      },
+      Object {
+        "borderTopColor": "#ddd",
+        "borderTopWidth": 1,
+      },
+    ]
+  }
+  testID="attack-0"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "flexDirection": "row",
+        "marginRight": 10,
+        "width": 30,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "fontFamily": "SourceSansPro-Bold",
+          "fontSize": 16,
+          "lineHeight": 26,
+        }
+      }
+    >
+      1
+    </Text>
+    <Text
+      style={
+        Object {
+          "fontFamily": "SourceSansPro-Bold",
+          "fontSize": 11,
+          "lineHeight": 18,
+        }
+      }
+    >
+      o
+    </Text>
+  </View>
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/potion.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "marginRight": 10,
+          "width": 20,
+        },
+        Object {
+          "tintColor": "#BF2137",
+        },
+      ]
+    }
+    testID="attack-0-red-0"
+  />
+  <Image
+    source={
+      Object {
+        "testUri": "../../../src/assets/images/potion.png",
+      }
+    }
+    style={
+      Array [
+        Object {
+          "height": 20,
+          "marginRight": 10,
+          "width": 20,
+        },
+        Object {
+          "tintColor": "#0479F1",
+        },
+      ]
+    }
+    testID="attack-0-blue-1"
+  />
+</View>
+`;
