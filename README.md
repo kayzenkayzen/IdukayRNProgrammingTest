@@ -13,14 +13,14 @@ You can use [NVM](https://github.com/nvm-sh/nvm) to manage differents versions o
 
 1. **Clone the project**
 
-Run these commands on project root folder
+Run these commands on the project root folder
 
 2. **Install node_modules**: `yarn install`
 3. **Install IOS pod dependencies**: `cd ios && pod install --repo-update && cd ..`
 
 #### Run the app on IOS
 
-Run the below command on project root folder
+Run the below command on the project root folder
 
 ```
 npx react-native run-ios
@@ -64,7 +64,7 @@ The app is configured for [React Native Debugger](https://github.com/jhen0409/re
 
 I'm using Prettier to help us to use code conventions defined by eslint
 
-To run Prettier on save file in VSC you need to save the project as workspace and put this code on its file
+To run Prettier on save the file in VSC you need to save the project as a workspace and put this code on its file
 
 ```
 "settings": {
@@ -80,7 +80,7 @@ I'm using Husky to prevent commit code that doesn't pass required tests or doesn
 
 #### Typescript
 
-I'm using typescript to type check my code. Additionaly, I liked to use absolute paths. So I use tsconfig to keep the Go to Definition capability. For VSC it works well, but it might require some additional configuration in other IDEs
+I'm using typescript to type-check my code. Additionally, I liked to use absolute paths. So I use tsconfig to keep the Go to Definition capability. For VSC it works well, but it might require some additional configuration in other IDEs
 
 #### Redux
 
