@@ -8,6 +8,14 @@ describe('Test OptimalDamageCalculator service', () => {
     );
   });
 
+  it('should the required COMBINATION_DAMAGE_PERCENTAGE key are defined', () => {
+    const keys = Object.keys(constants.POTIONS);
+
+    for (let i = 1; i <= keys.length; i++) {
+      expect(constants.COMBINATION_DAMAGE_PERCENTAGE[i]).toBeDefined();
+    }
+  });
+
   it('calculate damage percentage correcly', () => {
     expect(
       new OptimalDamageCalculator().calculateDamagePercentage([
