@@ -1,0 +1,1025 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView>
+    <View>
+      <View
+        style={
+          Object {
+            "backgroundColor": "#fff",
+            "paddingHorizontal": 10,
+            "paddingVertical": 20,
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#2b2b2b",
+              "fontFamily": "SourceSansPro-Regular",
+              "fontSize": 16,
+              "lineHeight": 21,
+            }
+          }
+        >
+          Seleccione las pociones que posee para calcular los ataques más efectivos
+        </Text>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomColor": "#dddddd",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "marginVertical": 2,
+              "paddingHorizontal": 10,
+              "paddingVertical": 10,
+            },
+            Object {
+              "borderTopColor": "#ddd",
+              "borderTopWidth": 1,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/potion.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 20,
+                  "marginRight": 10,
+                  "width": 20,
+                },
+                Object {
+                  "tintColor": "#BF2137",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#BF2137",
+                "fontFamily": "SourceSansPro-SemiBold",
+              }
+            }
+          >
+            Poción Roja
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomLeftRadius": 20,
+                  "borderColor": "#c0c0c0",
+                  "borderRadius": 4,
+                  "borderTopLeftRadius": 20,
+                  "borderWidth": 1,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 40,
+                }
+              }
+              testID="minus-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "color": "#2b2b2b30",
+                    },
+                  ]
+                }
+              >
+                -
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#fff",
+                    "borderColor": "#000",
+                    "borderRadius": 4,
+                    "borderWidth": 1,
+                    "justifyContent": "center",
+                    "marginHorizontal": 5,
+                    "width": 60,
+                  },
+                  Object {
+                    "borderColor": "#c0c0c0",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                  ]
+                }
+                testID="value-label"
+              >
+                0
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomEndRadius": 20,
+                  "borderColor": "#c0c0c0",
+                  "borderRadius": 4,
+                  "borderTopEndRadius": 20,
+                  "borderWidth": 1,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 40,
+                }
+              }
+              testID="more-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "color": "#2b2b2b",
+                    },
+                  ]
+                }
+              >
+                +
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomColor": "#dddddd",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "marginVertical": 2,
+              "paddingHorizontal": 10,
+              "paddingVertical": 10,
+            },
+            Object {
+              "borderTopColor": undefined,
+              "borderTopWidth": undefined,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/potion.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 20,
+                  "marginRight": 10,
+                  "width": 20,
+                },
+                Object {
+                  "tintColor": "#0479F1",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#0479F1",
+                "fontFamily": "SourceSansPro-SemiBold",
+              }
+            }
+          >
+            Poción Azul
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomLeftRadius": 20,
+                  "borderColor": "#c0c0c0",
+                  "borderRadius": 4,
+                  "borderTopLeftRadius": 20,
+                  "borderWidth": 1,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 40,
+                }
+              }
+              testID="minus-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "color": "#2b2b2b30",
+                    },
+                  ]
+                }
+              >
+                -
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#fff",
+                    "borderColor": "#000",
+                    "borderRadius": 4,
+                    "borderWidth": 1,
+                    "justifyContent": "center",
+                    "marginHorizontal": 5,
+                    "width": 60,
+                  },
+                  Object {
+                    "borderColor": "#c0c0c0",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                  ]
+                }
+                testID="value-label"
+              >
+                0
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomEndRadius": 20,
+                  "borderColor": "#c0c0c0",
+                  "borderRadius": 4,
+                  "borderTopEndRadius": 20,
+                  "borderWidth": 1,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 40,
+                }
+              }
+              testID="more-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "color": "#2b2b2b",
+                    },
+                  ]
+                }
+              >
+                +
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomColor": "#dddddd",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "marginVertical": 2,
+              "paddingHorizontal": 10,
+              "paddingVertical": 10,
+            },
+            Object {
+              "borderTopColor": undefined,
+              "borderTopWidth": undefined,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/potion.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 20,
+                  "marginRight": 10,
+                  "width": 20,
+                },
+                Object {
+                  "tintColor": "#009E2F",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#009E2F",
+                "fontFamily": "SourceSansPro-SemiBold",
+              }
+            }
+          >
+            Poción Verde
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomLeftRadius": 20,
+                  "borderColor": "#c0c0c0",
+                  "borderRadius": 4,
+                  "borderTopLeftRadius": 20,
+                  "borderWidth": 1,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 40,
+                }
+              }
+              testID="minus-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "color": "#2b2b2b30",
+                    },
+                  ]
+                }
+              >
+                -
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#fff",
+                    "borderColor": "#000",
+                    "borderRadius": 4,
+                    "borderWidth": 1,
+                    "justifyContent": "center",
+                    "marginHorizontal": 5,
+                    "width": 60,
+                  },
+                  Object {
+                    "borderColor": "#c0c0c0",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                  ]
+                }
+                testID="value-label"
+              >
+                0
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomEndRadius": 20,
+                  "borderColor": "#c0c0c0",
+                  "borderRadius": 4,
+                  "borderTopEndRadius": 20,
+                  "borderWidth": 1,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 40,
+                }
+              }
+              testID="more-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "color": "#2b2b2b",
+                    },
+                  ]
+                }
+              >
+                +
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomColor": "#dddddd",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "marginVertical": 2,
+              "paddingHorizontal": 10,
+              "paddingVertical": 10,
+            },
+            Object {
+              "borderTopColor": undefined,
+              "borderTopWidth": undefined,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/potion.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 20,
+                  "marginRight": 10,
+                  "width": 20,
+                },
+                Object {
+                  "tintColor": "#E4B80A",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#E4B80A",
+                "fontFamily": "SourceSansPro-SemiBold",
+              }
+            }
+          >
+            Poción Amarilla
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomLeftRadius": 20,
+                  "borderColor": "#c0c0c0",
+                  "borderRadius": 4,
+                  "borderTopLeftRadius": 20,
+                  "borderWidth": 1,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 40,
+                }
+              }
+              testID="minus-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "color": "#2b2b2b30",
+                    },
+                  ]
+                }
+              >
+                -
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#fff",
+                    "borderColor": "#000",
+                    "borderRadius": 4,
+                    "borderWidth": 1,
+                    "justifyContent": "center",
+                    "marginHorizontal": 5,
+                    "width": 60,
+                  },
+                  Object {
+                    "borderColor": "#c0c0c0",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                  ]
+                }
+                testID="value-label"
+              >
+                0
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomEndRadius": 20,
+                  "borderColor": "#c0c0c0",
+                  "borderRadius": 4,
+                  "borderTopEndRadius": 20,
+                  "borderWidth": 1,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 40,
+                }
+              }
+              testID="more-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "color": "#2b2b2b",
+                    },
+                  ]
+                }
+              >
+                +
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+      <View
+        style={
+          Array [
+            Object {
+              "backgroundColor": "#fff",
+              "borderBottomColor": "#dddddd",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "marginVertical": 2,
+              "paddingHorizontal": 10,
+              "paddingVertical": 10,
+            },
+            Object {
+              "borderTopColor": undefined,
+              "borderTopWidth": undefined,
+            },
+          ]
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flex": 1,
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/assets/images/potion.png",
+              }
+            }
+            style={
+              Array [
+                Object {
+                  "height": 20,
+                  "marginRight": 10,
+                  "width": 20,
+                },
+                Object {
+                  "tintColor": "#303030",
+                },
+              ]
+            }
+          />
+          <Text
+            style={
+              Object {
+                "color": "#303030",
+                "fontFamily": "SourceSansPro-SemiBold",
+              }
+            }
+          >
+            Poción Gris
+          </Text>
+        </View>
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+              "justifyContent": "center",
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "flexDirection": "row",
+                "height": 40,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomLeftRadius": 20,
+                  "borderColor": "#c0c0c0",
+                  "borderRadius": 4,
+                  "borderTopLeftRadius": 20,
+                  "borderWidth": 1,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 40,
+                }
+              }
+              testID="minus-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "color": "#2b2b2b30",
+                    },
+                  ]
+                }
+              >
+                -
+              </Text>
+            </View>
+            <View
+              style={
+                Array [
+                  Object {
+                    "alignItems": "center",
+                    "backgroundColor": "#fff",
+                    "borderColor": "#000",
+                    "borderRadius": 4,
+                    "borderWidth": 1,
+                    "justifyContent": "center",
+                    "marginHorizontal": 5,
+                    "width": 60,
+                  },
+                  Object {
+                    "borderColor": "#c0c0c0",
+                  },
+                ]
+              }
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "color": "#000",
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                  ]
+                }
+                testID="value-label"
+              >
+                0
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              focusable={true}
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "transparent",
+                  "borderBottomEndRadius": 20,
+                  "borderColor": "#c0c0c0",
+                  "borderRadius": 4,
+                  "borderTopEndRadius": 20,
+                  "borderWidth": 1,
+                  "justifyContent": "center",
+                  "opacity": 1,
+                  "width": 40,
+                }
+              }
+              testID="more-button"
+            >
+              <Text
+                style={
+                  Array [
+                    Object {
+                      "fontFamily": "SourceSansPro-Bold",
+                      "fontSize": 16,
+                    },
+                    Object {
+                      "color": "#2b2b2b",
+                    },
+                  ]
+                }
+              >
+                +
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</RCTSafeAreaView>
+`;
