@@ -31,7 +31,7 @@ You can just double click on this file and XCODE will open with the project
 
 #### Run the app on ANDROID
 
-Run the below command on project root folder
+Run the below command on the project root folder
 
 ```
 npx react-native run-android
