@@ -115,10 +115,5 @@ const COMBINATION_DAMAGE_PERCENTAGE: IAttackDamagePercentage = {
 };
 ```
 
-IMPORTANT: note that as many values must be defined in COMBINATION_DAMAGE_PERCENTAGE as types of potions exist in POTIONS
+IMPORTANT: the amount of POTIONS must match the amount of COMBINATION_DAMAGE_PERCENTAGE
 
-## TODOs
-
-1. **More unit tests**
-2. **Integration tests**
-2. **E2E tests using Detox or Apium**

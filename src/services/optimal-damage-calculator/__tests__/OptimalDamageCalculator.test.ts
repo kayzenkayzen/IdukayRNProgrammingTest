@@ -1,6 +1,13 @@
+import { constants } from '@src/constants';
 import OptimalDamageCalculator from './../OptimalDamageCalculator';
 
 describe('Test OptimalDamageCalculator service', () => {
+  it('should the amount of POTIONS must match the amount of COMBINATION_DAMAGE_PERCENTAGE', () => {
+    expect(Object.keys(constants.POTIONS).length).toEqual(
+      Object.keys(constants.COMBINATION_DAMAGE_PERCENTAGE).length,
+    );
+  });
+
   it('calculate damage percentage correcly', () => {
     expect(
       new OptimalDamageCalculator().calculateDamagePercentage([
