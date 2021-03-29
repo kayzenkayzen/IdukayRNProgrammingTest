@@ -6,32 +6,32 @@
 
 ## Environment Requirements
 
-This proyect requires node version >=12 
+This project requires node version >=12 
 You can use [NVM](https://github.com/nvm-sh/nvm) to manage differents versions of node
 
 ## Getting started
 
-1. **Clone the proyect**
+1. **Clone the project**
 
-Run this commands on proyect root folder
+Run these commands on project root folder
 
 2. **Install node_modules**: `yarn install`
 3. **Install IOS pod dependencies**: `cd ios && pod install --repo-update && cd ..`
 
 #### Run the app on IOS
 
-Run the below command on proyect root folder
+Run the below command on project root folder
 
 ```
 npx react-native run-ios
 ```
 
-If you want to start the app from XCODE open the proyect using `IdukayRNProgramming.xcworkspace` from `IdukayRNProgramming/ios/` folder
-You can just double click on this file and XCODE will open with the proyect
+If you want to start the app from XCODE open the project using `IdukayRNProgramming.xcworkspace` from `IdukayRNProgramming/ios/` folder
+You can just double click on this file and XCODE will open with the project
 
 #### Run the app on ANDROID
 
-Run the below command on proyect root folder
+Run the below command on project root folder
 
 ```
 npx react-native run-android
@@ -46,7 +46,7 @@ The app will be open on the detected device, you can use [Genymotion Emulator ( 
 yarn test
 ```
 
-Additional to the unit tests, I'm using snapshots to get more control when any code modification reflects UI changes. You will be alerted when any snapshot don't match and will show you the differences.
+Additional to the unit tests, I'm using snapshots to get more control when any code modification reflects UI changes. You will be alerted when any snapshot doesn't match and will show you the differences.
 If you want to confirm the changes and update the snapshots to pass the tests run:
 
 ```
@@ -58,13 +58,13 @@ yarn test -u
 The app is configured for [React Native Debugger](https://github.com/jhen0409/react-native-debugger)
 
 
-## Other Considerartions
+## Other Considerations
 
 #### Prettier
 
 I'm using Prettier to help us to use code conventions defined by eslint
 
-To run Prettier on save file in VSC you need to save the proyect as workspace and put this code on its file
+To run Prettier on save file in VSC you need to save the project as workspace and put this code on its file
 
 ```
 "settings": {
@@ -84,7 +84,7 @@ I'm using typescript to type check my code. Additionaly, I liked to use absolute
 
 #### Redux
 
-I'm using redux as a state manager for this proyect
+I'm using redux as a state manager for this project
 
 #### About the architectural design
 
