@@ -64,7 +64,7 @@ The app is configured for [React Native Debugger](https://github.com/jhen0409/re
 
 I'm using Prettier to help us to use code conventions defined by eslint
 
-To run Prettier on save the file in VSC you need to save the project as a workspace and put this code on its file
+To run Prettier on saving the file in VSC you need to save the project as a workspace and put this code on its file
 
 ```
 "settings": {
