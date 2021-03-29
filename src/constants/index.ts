@@ -5,7 +5,7 @@ const POTIONS: IPotion[] = [
   { id: 'red', rgb: '#BF2137', label: 'Poción Roja' },
   { id: 'blue', rgb: '#0479F1', label: 'Poción Azul' },
   { id: 'green', rgb: '#009E2F', label: 'Poción Verde' },
-  { id: 'yellow', rgb: '#E4B80A', label: 'Poción Amarilla' },
+  { id: 'yellow', rgb: '#E4B80A', label: 'Poción Amarilladsfasdfasdfasdfsdfs' },
   { id: 'gray', rgb: '#303030', label: 'Poción Gris' },
 ];
 

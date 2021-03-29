@@ -7,7 +7,7 @@ describe('Test AttackCombinationItem Component', () => {
   it('renders correctly', () => {
     const wrapper = render(
       <AttackCombinationItem
-        attack={[constants.POTIONS[0].id, constants.POTIONS[1].id]}
+        attack={[constants.POTIONS[0]?.id, constants.POTIONS[1]?.id]}
         index={0}
       />,
     ).toJSON();

@@ -34,10 +34,15 @@ const PotionOptionItem: React.FC<IPotionOptionItemProps> = React.memo(
 
           <Text
             testID="potion-option-item-label"
-            style={{
-              fontFamily: theme.fonts.primary.semibold,
-              color: rgb,
-            }}
+            numberOfLines={1}
+            ellipsizeMode="tail"
+            style={[
+              styles.potionLabel,
+              {
+                fontFamily: theme.fonts.primary.semibold,
+                color: rgb,
+              },
+            ]}
           >
             {label}
           </Text>

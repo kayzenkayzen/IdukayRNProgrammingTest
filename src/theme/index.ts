@@ -1,6 +1,6 @@
 import { Platform } from 'react-native';
 
-const colors = {
+const colors: { [key: string]: any } = {
   primary: {
     light: '#c0c0c0',
     medium: '#2b2b2b',
@@ -11,7 +11,7 @@ const colors = {
   transparent: 'transparent',
 };
 
-const fonts = {
+const fonts: { [key: string]: any } = {
   primary: {
     light: 'SourceSansPro-Light',
     regular: 'SourceSansPro-Regular',

@@ -49,11 +49,18 @@ exports[`Test PotionOptionItem Component renders correctly 1`] = `
       }
     />
     <Text
+      ellipsizeMode="tail"
+      numberOfLines={1}
       style={
-        Object {
-          "color": "red",
-          "fontFamily": "SourceSansPro-SemiBold",
-        }
+        Array [
+          Object {
+            "flex": 1,
+          },
+          Object {
+            "color": "red",
+            "fontFamily": "SourceSansPro-SemiBold",
+          },
+        ]
       }
       testID="potion-option-item-label"
     >
@@ -66,6 +73,7 @@ exports[`Test PotionOptionItem Component renders correctly 1`] = `
         "alignItems": "center",
         "flexDirection": "row",
         "justifyContent": "center",
+        "marginLeft": 15,
       }
     }
   >

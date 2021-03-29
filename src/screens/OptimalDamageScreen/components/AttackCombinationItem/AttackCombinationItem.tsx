@@ -33,7 +33,7 @@ const AttackCombinationItem: React.FC<IAttackCombinationItem> = React.memo(
               styles.attackPotionImage,
               {
                 tintColor: constants.POTIONS.filter(v => v.id === potion)[0]
-                  .rgb,
+                  ?.rgb,
               },
             ]}
             source={images.potion}

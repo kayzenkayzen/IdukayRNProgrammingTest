@@ -15,6 +15,9 @@ export const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
   },
+  potionLabel: {
+    flex: 1,
+  },
   potionImage: {
     width: 20,
     height: 20,
@@ -24,5 +27,6 @@ export const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     flexDirection: 'row',
+    marginLeft: 15,
   },
 });

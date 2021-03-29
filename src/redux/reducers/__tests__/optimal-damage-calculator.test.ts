@@ -4,7 +4,7 @@ import { ActionType } from '@src/redux/types/index.d';
 
 describe('Test redux optimalDamageCalculatorReducer', () => {
   it('should removePotion action reflect expected state', () => {
-    const potionId = constants.POTIONS[0].id;
+    const potionId = constants.POTIONS[0]?.id;
 
     expect(
       optimalDamageCalculatorReducer(undefined, {
@@ -27,7 +27,7 @@ describe('Test redux optimalDamageCalculatorReducer', () => {
   });
 
   it('should addPotion action reflect expected state', () => {
-    const potionId = constants.POTIONS[0].id;
+    const potionId = constants.POTIONS[0]?.id;
 
     expect(
       optimalDamageCalculatorReducer(undefined, {

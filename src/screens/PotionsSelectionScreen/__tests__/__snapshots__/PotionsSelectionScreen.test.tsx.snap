@@ -82,11 +82,18 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
             }
           />
           <Text
+            ellipsizeMode="tail"
+            numberOfLines={1}
             style={
-              Object {
-                "color": "#BF2137",
-                "fontFamily": "SourceSansPro-SemiBold",
-              }
+              Array [
+                Object {
+                  "flex": 1,
+                },
+                Object {
+                  "color": "#BF2137",
+                  "fontFamily": "SourceSansPro-SemiBold",
+                },
+              ]
             }
             testID="potion-option-item-label"
           >
@@ -99,6 +106,7 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
               "alignItems": "center",
               "flexDirection": "row",
               "justifyContent": "center",
+              "marginLeft": 15,
             }
           }
         >
@@ -280,11 +288,18 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
             }
           />
           <Text
+            ellipsizeMode="tail"
+            numberOfLines={1}
             style={
-              Object {
-                "color": "#0479F1",
-                "fontFamily": "SourceSansPro-SemiBold",
-              }
+              Array [
+                Object {
+                  "flex": 1,
+                },
+                Object {
+                  "color": "#0479F1",
+                  "fontFamily": "SourceSansPro-SemiBold",
+                },
+              ]
             }
             testID="potion-option-item-label"
           >
@@ -297,6 +312,7 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
               "alignItems": "center",
               "flexDirection": "row",
               "justifyContent": "center",
+              "marginLeft": 15,
             }
           }
         >
@@ -478,11 +494,18 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
             }
           />
           <Text
+            ellipsizeMode="tail"
+            numberOfLines={1}
             style={
-              Object {
-                "color": "#009E2F",
-                "fontFamily": "SourceSansPro-SemiBold",
-              }
+              Array [
+                Object {
+                  "flex": 1,
+                },
+                Object {
+                  "color": "#009E2F",
+                  "fontFamily": "SourceSansPro-SemiBold",
+                },
+              ]
             }
             testID="potion-option-item-label"
           >
@@ -495,6 +518,7 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
               "alignItems": "center",
               "flexDirection": "row",
               "justifyContent": "center",
+              "marginLeft": 15,
             }
           }
         >
@@ -676,15 +700,22 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
             }
           />
           <Text
+            ellipsizeMode="tail"
+            numberOfLines={1}
             style={
-              Object {
-                "color": "#E4B80A",
-                "fontFamily": "SourceSansPro-SemiBold",
-              }
+              Array [
+                Object {
+                  "flex": 1,
+                },
+                Object {
+                  "color": "#E4B80A",
+                  "fontFamily": "SourceSansPro-SemiBold",
+                },
+              ]
             }
             testID="potion-option-item-label"
           >
-            Poción Amarilla
+            Poción Amarilladsfasdfasdfasdfsdfs
           </Text>
         </View>
         <View
@@ -693,6 +724,7 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
               "alignItems": "center",
               "flexDirection": "row",
               "justifyContent": "center",
+              "marginLeft": 15,
             }
           }
         >
@@ -874,11 +906,18 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
             }
           />
           <Text
+            ellipsizeMode="tail"
+            numberOfLines={1}
             style={
-              Object {
-                "color": "#303030",
-                "fontFamily": "SourceSansPro-SemiBold",
-              }
+              Array [
+                Object {
+                  "flex": 1,
+                },
+                Object {
+                  "color": "#303030",
+                  "fontFamily": "SourceSansPro-SemiBold",
+                },
+              ]
             }
             testID="potion-option-item-label"
           >
@@ -891,6 +930,7 @@ exports[`Test PotionsSelectionScreen Component renders correctly 1`] = `
               "alignItems": "center",
               "flexDirection": "row",
               "justifyContent": "center",
+              "marginLeft": 15,
             }
           }
         >
